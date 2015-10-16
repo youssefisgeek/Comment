@@ -1,0 +1,102 @@
+/*
+ * Script By Youssef EL Haloui (http://th3youssefinfo.blogspot.com/)
+ */
+
+/* Comments Tab Styles*/
+.comments > h4 {
+margin: 0px !important;
+padding: 5px 10px;
+}
+.comments-page {
+display: none;
+margin: 10px 10px 10px 10px;
+}
+#blogger-comments-page {
+padding: 0px 0px;
+}
+.comment-form {
+margin: 10px;
+}
+.comments-tab {
+color: #ffffff;
+padding: 5px;
+margin-right: 7px;
+margin-right: 7px;
+cursor: pointer;
+font-weight: bold;
+border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 5px 5px 0px 0px;
+position: relative;
+z-index: 10;
+box-shadow: 0px -1px 2px #666;
+-moz-box-shadow: 0px -1px 2px #666;
+-webkit-box-shadow: 0px -1px 2px #666;
+background-image: linear-gradient(#ffffff,#F2F2F2);
+background-image: -moz-linear-gradient(#ffffff,#F2F2F2);
+background-image: -webkit-linear-gradient(#ffffff,#F2F2F2);
+}
+.comments-tab img { height: 14px;  width: auto;  margin: 0px 3px;}
+#blogger-comments, #blogger-comments.js-inactive-tab:hover {
+    float: right;
+    font: normal 20px ge_dinar;
+    font-style: normal;
+    color: #Fff;
+    background: #FFA500;
+    -moz-box-shadow: -1px 4px 7px #000000;
+    -webkit-box-shadow: -1px 4px 7px #000000;
+    -moz-border-radius: 26px 10px 26px 10px;
+    padding: 8px 29px;
+    cursor: pointer;
+    border-radius: 30px;
+    margin: 20px 20px;
+}
+#blogger-comments.js-inactive-tab {
+background-color: #cc6600;
+background-image: linear-gradient(#cc6600, #aa4400);
+background-image: -moz-linear-gradient(#cc6600, #aa4400);
+background-image: -webkit-linear-gradient(#cc6600, #aa4400);
+-webkit-box-shadow: none;
+}
+#disqus-comments, #disqus-comments.js-inactive-tab:hover {
+    font: normal 20px ge_dinar;
+    float: right;
+    font-style: normal;
+    color: #Fff;
+    background: #008AFB;
+    -webkit-box-shadow: -1px 4px 7px #000000;
+    padding: 8px 41px;
+    margin-right: 29px;
+    border-radius: 30px;
+    margin: 20px 20px;
+}
+#disqus-comments.js-inactive-tab {
+background-color: #10318C;
+background-image: -webkit-linear-gradient(#008AFB, #0D4B7D);
+-webkit-box-shadow: none;
+}
+#fb-comments, #fb-comments.js-inactive-tab:hover {
+    font: normal 20px ge_dinar;
+    float: right;
+    font-style: normal;
+    color: #Fff;
+    background: #0043FF;
+    -webkit-box-shadow: -1px 4px 7px #000000;
+    padding: 8px 41px;
+    margin-right: 29px;
+    border-radius: 30px;
+    margin: 20px 20px;
+}
+#fb-comments.js-inactive-tab {
+background-color: #1B3968;
+background-image: linear-gradient(#3B5998, #1B3968);
+background-image: -moz-linear-gradient(#3B5998, #1B3968);
+background-image: -webkit-linear-gradient(#3B5998, #1B3968);
+-webkit-box-shadow: none;
+}
+.js-inactive-tab {
+background-color: #e2e2e2;
+background-image: linear-gradient(#F4F4F4,#DDD);
+background-image: -moz-linear-gradient(#F4F4F4,#DDD);
+background-image: -webkit-linear-gradient(#F4F4F4,#DDD);
+}
